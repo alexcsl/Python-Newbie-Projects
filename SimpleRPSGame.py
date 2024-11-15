@@ -1,4 +1,4 @@
-#    MAKE A ROCK PAPER SCISSORS GAME !!!
+#    MAKE A SIMPLE ROCK PAPER SCISSORS GAME !!!
 import random
 import os
 
@@ -10,7 +10,6 @@ def get_choice() :
     return choice
 
 #function to check the win
-            #casefold() for ignore case
 def check_win(playerChoice, computerChoice):
     #Formatted String Literals =  print(f".....") 
     print(f"The User chooses: {playerChoice.capitalize()}!\nThe Almighty Bot chooses: {computerChoice.capitalize()}!")
